@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/Logo/church-removebg-preview.png" type="image/png">
+    <title>CKREGLOM</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/scrolltotop_arrow_style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/touch-sideswipe.min.js"></script>
+</head>
+
+<!-- <style>
+    .bg-light{
+        background-color: transparent !important;
+    }
+</style> -->
+
+<body>
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+
+    <div id="scrolltotop_parent" class="scrolltotop_hide_onload">
+        <div tabindex="0" id="scrolltotop_arrow">
+        </div>
+    </div>
+
+
+
+    <nav class="navbar about navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="index.html"><img src="img/Logo/church.jpeg" width="60" alt=""></a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+            data-target="#slide-navbar-collapse" aria-controls="basicExampleNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <!-- <span class="nabar-toggler-icon"></span> -->
+            <span class="hamburger top-bar"></span>
+            <span class="hamburger middle-bar"></span>
+            <span class="hamburger bottom-bar"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse collapse  d-flex flex-column flex-lg-row flex-xl-row justify-content-lg-end p-3 p-lg-0 text-info"
+            id="slide-navbar-collapse">
+            <!-- Links -->
+            <ul class=" navbar-nav mx-auto " id="nav-menu">
+                <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+                <li class="nav-item active">
+                    <a class="nav-link " href="index.html">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown megamenu"><a id="megamneu" href="about.html" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" class="nav-link ">About Us</a>
+                    <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                        <div class="container">
+                            <div class="row bg-white rounded-0 m-0 shadow-sm">
+                                <div class="col-lg-7 col-xl-8">
+                                    <div class="p-4">
+                                        <div class="row">
+                                            <div class="col-lg-6 mb-4">
+                                                <h6 class="text-uppercase" style="color: #0276fd;">About</h6>
+                                                <ul class="list-unstyled">
+                                                    <li class="nav-item"><a href="about.html"
+                                                            class="nav-link  text-small pb-0">Our Church</a>
+                                                    </li>
+                                                    <!-- <li class="nav-item"><a href="about.html#vision-mission-section"
+                                                            class="nav-link  text-small pb-0 ">OUR VISION &
+                                                            MISSION</a></li>
+                                                    <li class="nav-item"><a href="about.html#our-belief"
+                                                            class="nav-link  text-small pb-0 ">OUR BELIEFS
+                                                        </a></li>
+                                                    <li class="nav-item"><a href="about.html#the-visioneer"
+                                                            class="nav-link  text-small pb-0 ">THE
+                                                            VISIONEER
+                                                        </a></li>
+                                                    <li class="nav-item"><a href="about.html#church-history"
+                                                            class="nav-link  text-small pb-0 ">CHURCH
+                                                            HISTORY
+                                                        </a></li>
+                                                    <li class="nav-item"><a href="about.html#our-minister"
+                                                            class="nav-link  text-small pb-0 ">BOARD OF
+                                                            TRUSTEES
+                                                        </a></li> -->
+                                                    <li class="nav-item"><a href="about.html#our-minister"
+                                                            class="nav-link  text-small pb-0 ">Our Branches
+                                                        </a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-6 mb-4">
+                                                <h6 class="font-weight-bold text-uppercase">Ministries</h6>
+                                                <ul class="list-unstyled">
+                                                    <li class="nav-item"><a href=""
+                                                            class="nav-link text-small pb-0 ">Men Of Valor
+                                                            Fellowship</a></li>
+                                                    <li class="nav-item"><a href=""
+                                                            class="nav-link text-small pb-0 ">Good Women Fellowship</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href=""
+                                                            class="nav-link text-small pb-0 ">Youth Fellowwship</a></li>
+                                                    <li class="nav-item"><a href=""
+                                                            class="nav-link text-small pb-0 ">Rescue Voices</a></li>
+                                                    <li class="nav-item"><a href=""
+                                                            class="nav-link text-small pb-0 ">Boy's Brigade</a></li>
+                                                </ul>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-xl-4 px-0 d-none d-lg-block"
+                                    style="background: center center url('img/slider/image1.jpg')no-repeat; background-size: cover;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- 
+                <li class="nav-item dropdown">
+                    <a class="nav-link " href="about.html" id="navbarDropdownMenuLink" data-toggle=""
+                        aria-haspopup="true" aria-expanded="false">
+                        About Us
+                    </a>
+                    <div class="dropdown-menu about-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <strong class="texxt-center ml-4" style="color: #0276fd;">ABOUT</strong>
+                        <a class="" href="about.html#introduction-section">INTRODUCTION</a>
+                        <a class="" href="about.html#vision-mission-section">OUR VISION & MISSION</a>
+                        <a class="" href="about.html#our-belief">OUR BELIEFS</a>
+                        <a class="" href="about.html#the-visioneer">THE VISIONEER</a>
+                        <a class="" href="about.html#church-history">CHURCH HISTORY</a>
+                        <a class="" href="about.html#our-minister">BOARD OF TTRUSTEES</a>
+                    </div>
+                </li> -->
+                <li class="nav-item dropdown megamenu"><a id="megamneu" href="info_center.html" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false" class="nav-link ">Information center</a>
+                    <div aria-labelledby="megamneu" class="dropdown-menu border-0 p-0 m-0">
+                        <div class="container">
+                            <div class="row bg-white rounded-0 m-0 shadow-sm">
+                                <div class="col-lg-7 col-xl-8">
+                                    <div class="p-4">
+                                        <div class="row">
+                                            <div class="col-lg-6 mb-4">
+                                                <h6 class="text-uppercase" style="color: #0276fd;">Enquire</h6>
+                                                <ul class="list-unstyled">
+                                                    <li class="nav-item"><a href="about.html#introduction-section"
+                                                            class="nav-link   pb-0">Baptism</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="about.html#vision-mission-section"
+                                                            class="nav-link  text-small pb-0 ">Getting Married
+                                                        </a></li>
+                                                    <li class="nav-item"><a href="about.html#our-belief"
+                                                            class="nav-link  text-small pb-0 ">Child Dedication
+                                                        </a></li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-lg-6 mb-4">
+                                                <h6 class="font-weight-bold text-uppercase">Connect</h6>
+                                                <ul class="list-unstyled">
+                                                    <li class="nav-item"><a href=""
+                                                            class="nav-link text-small pb-0 ">House Support
+                                                            Networks(Fellowship)</a></li>
+                                                    <!-- <li class="nav-item"><a href=""
+                                                        class="nav-link text-small pb-0 ">Freedom Angelos</a></li> -->
+                                                    <li class="nav-item"><a href=""
+                                                            class="nav-link text-small pb-0 ">Ministry Training
+                                                            Institute</a></li>
+                                                    <li class="nav-item"><a href=""
+                                                            class="nav-link text-small pb-0 ">Outreach</a></li>
+                                                </ul>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 col-xl-4 px-0 d-none d-lg-block"
+                                    style="background: center center url('img/slider/image1.jpg')no-repeat; background-size: cover;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Store</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <a href="" class="button btn btn-primary" style="margin-right:30px;">Give</a>
+            <!-- Links -->
+        </div>
+        <!-- Collapsible content -->
+    </nav>
+    <!--/.Navbar-->
+    <div class="menu-overlay"></div>
+
+    <!--Showcase Carousel Wrapper-->
+    <div class="wrapper">
+        <!--Showcase Carousel Wrapper-->
+        <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+                <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <!--First slide-->
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/slider/image2.jpg" alt="First slide">
+                </div>
+                <!--/First slide-->
+                <!--Second slide-->
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/slider/image1.jpg" alt="Second slide">
+                </div>
+                <!--/Second slide-->
+                <!--Third slide-->
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/slider/image3.jpg" alt="Third slide">
+                </div>
+                <!--/Third slide-->
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+        <!--/.Showcase Carousel Wrapper-->
+
+        <!--New Here Section-->
+        <section id="newHere" class="" style="background-color: rgba(0, 0, 0, 0.62)">
+            <div class="container">
+                <div class="row vdivide">
+                    <div class="col-sm-6  text-light">
+                        <div class="py-5 new-here">
+                            <h5 class="text-uppercase">I'm new here</h5>
+                            <p class="" style="font-size: 130%">Find more about <strong class="mr-4">CKREGLOM</strong><a
+                                    href="about.html" class="button box-1 btn btn-primary" id="aboutbtn">ABOUT US</a>
+                            </p>
+                            <!-- <a href="#" class="box-2 btn btn-primary">ABOUT US</a> -->
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6  text-light" id="find-branch">
+                        <div class="py-5 branch">
+                            <h5 class="text-uppercase">Find a branch</h5>
+                            <p class="" style="font-size: 130%">Worship in a branch near you<a href="#"
+                                    class=" button box-2 btn btn-primary " id="locationbtn">LOCATIONS</a></p>
+                            <!-- <a href="#" class="box-2 btn btn-primary">ABOUT US</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/. New Here Section-->
+
+        <!--Connect Section-->
+        <section class="pt-2 connect-with" style="background-color:rgba(0, 0, 0, 0.2)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 pa-img">
+                        <img src="img/elements/papa.jpg" alt="Prophet's Picture"
+                            class="go-img img-fluid rounded-circle d-none d-md-block">
+                    </div>
+                    <div class="col-md-6 our-prophet py-5 conn-proph">
+                        <h1 class="">connect with our prophet</h1>
+                        <h6>prophet g.o onaolapo</h6>
+                        <hr class="bg-danger">
+                        <p>Stay connected and join our conversations via social media on Facebook, Twitter, Youtube
+                            and
+                            Instagram.</p>
+                        <div class="social-media-icons middle">
+                            <ul class="list-inline">
+                                <a class="social-btn" href=""><i class="fa fa-facebook"></i></a>
+                                <a class="social-btn" href=""><i class="fa fa-twitter"></i></a>
+                                <a class="social-btn" href=""><i class="fa fa-instagram"></i></a>
+                                <a class="social-btn" href=""><i class="fa fa-youtube"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/.connect Section-->
+        <!--================================================== 
+            TESTIMONIALS SECTION      
+===================================================-->
+        <section id="testimony-section" class="py-5 bg-dark testimony-section text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="subheading">
+                            <h2 class="mb-4 text-center" class=" text-center">Testimony
+                                <div class="border"> </div>
+                            </h2>
+                            <h4 class="text-center">The Positively Impacted Members Said</h4>
+                            <div class="wrapper testimony-wrapper mt-5">
+                                <div class="owl-carousel owl-theme testimonial-carousel">
+                                    <div class="item test-info ">
+                                        <h5>Fruitfulness in Marriage</h5>
+                                        <p>I thank the God for the salvation of my soul and wiping away my reproach
+                                            always.
+                                            I
+                                            have
+                                            had
+                                            several
+                                            challenges in life and God has been good in it all. When I got married, I
+                                            had
+                                            the
+                                            challenge
+                                            of the
+                                            fruit of the womb, and so many people offered me navtive concotion, which I
+                                            rejected. To
+                                            the
+                                            glory of God, I
+                                            became a mother of children without compromising my faith. Glory be to God
+                                            in
+                                            the
+                                            highest
+                                            - <strong>Mrs Dorcas B.</strong></p>
+
+                                    </div>
+                                    <div class="item">
+                                        <h5>Divine intervention</h5>
+                                        <p>
+                                            I thank the God of REGLOM for his faithfulness. God in His infinite mercy
+                                            approved
+                                            all
+                                            my
+                                            requests
+                                            this year, gave me a good job and saved my son from a near fatal accident I
+                                            will
+                                            forever
+                                            be
+                                            grateful <br>
+                                            - <strong>Victoria O.</strong>
+                                            <!-- <footer class="blockquote-footer text-uppercase"></footer> -->
+                                        </p>
+                                    </div>
+                                    <div class="item">
+                                        <h5>Protection By covenant of freedom</h5>
+                                        <p>
+                                            God in His mercy averted what woud have been a fatal accident, when an
+                                            electric
+                                            wire
+                                            suddenly cut in front of
+                                            my shop where my children usually play. I thank God for fulfilling His
+                                            covenant
+                                            of
+                                            safety
+                                            over my family.
+                                            Glory be to God in the highest <br> - <strong>Mrs Christianah A.</strong>
+                                        </p>
+                                    </div>
+                                    <div class="item">
+                                        <h5>Brekthrough Galore</h5>
+                                        <p>
+                                            I return all glory to ur most high God for settling all the challengs at my
+                                            son's
+                                            place
+                                            of
+                                            work, and anther
+                                            son of mine was awraded the sum of
+                                            five hundred thousand naira for excellence in his school. God has been
+                                            really
+                                            good
+                                            to me
+                                            on
+                                            this mountain and
+                                            I'll forever be grateful to him <br> - <strong>Pastor (mrs) O
+                                                Kehinde</strong>
+                                        </p>
+                                    </div>
+                                    <div class="item">
+                                        <h5>Change of Story</h5>
+                                        <p>
+                                            I give God praise for directing me to this ministry. I was at the verge of
+                                            collapse
+                                            when
+                                            I
+                                            joined this
+                                            ministry five years ago. Many people wuld doubt it if they were
+                                            told I wa a university graduate. Our faithful God chaged my story and things
+                                            changed
+                                            for
+                                            better, both
+                                            maritally and caeer wise. Glory, Honor and Adoration to our Most high <br> -
+                                            <strong>Mrs
+                                                Oluwatoyin B.</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--TESTIMONY-->
+
+
+        <section id="church-program" class="" style="background-color: rgba(0, 0, 0, 0.62)">
+            <p class="text-center text-light text-uppercase py-3">church programmes</p>
+            <div class="container">
+                <div class="row vdivide text-light">
+                    <div class="col-md-4">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut cupiditate sapiente beatae
+                            consectetur
+                            quaerat laboriosam culpa error temporibus cum eius animi voluptatem fuga dolores quam odit
+                            dolore,
+                            dignissimos adipisci totam similique soluta molestias quibusdam quas cumque! Quis, saepe
+                            maiores. Lorem
+                            ipsum dolor sit, amet consectetur adipisicing elit. Aut cupiditate sapiente beatae
+                            consectetur
+                            quaerat laboriosam culpa error temporibus cum eius animi voluptatem fuga dolores quam odit
+                            dolore,
+                            dignissimos adipisci totam similique soluta molestias quibusdam quas cumque! Quis, saepe
+                            maiores.</p>s
+                    </div>
+                    <div class="col-md-4">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut cupiditate sapiente beatae
+                            consectetur
+                            quaerat laboriosam culpa error temporibus cum eius animi voluptatem fuga dolores quam odit
+                            dolore,
+                            dignissimos adipisci totam similique soluta molestias quibusdam quas cumque! Quis, saepe
+                            maiores.Lorem ipsum
+                            dolor sit, amet consectetur adipisicing elit. Aut cupiditate sapiente beatae consectetur
+                            quaerat laboriosam culpa error temporibus cum eius animi voluptatem fuga dolores quam odit
+                            dolore,
+                            dignissimos adipisci totam similique soluta molestias quibusdam quas cumque! Quis, saepe
+                            maiores.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem ipsum totam maiores officia
+                            delectus
+                            perspiciatis et quaerat dolore, perferendis odio, quos necessitatibus repellat fuga quia
+                            temporibus beatae
+                            sint, molestias laborum.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
+                            cupiditate
+                            sapiente
+                            beatae consectetur
+                            quaerat laboriosam culpa error temporibus cum eius animi voluptatem fuga dolores quam odit
+                            dolore,
+                            dignissimos adipisci totam similique soluta molestias quibusdam quas cumque! Quis, saepe
+                            maiores.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <footer id=" main-footer" class="text-center p-3 text-white" style="background-color:#262626;">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="text-capitalize">Copyright 2019 &copy; Christ the king rescue global
+                            ministry</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+        <script src="js/scrolltotop_arrow_code.js"></script>
+        <script type="text/javascript" src="js/style.js"></script>
+    </div>
+</body>
+
+</html>
